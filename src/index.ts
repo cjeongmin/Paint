@@ -18,6 +18,12 @@ colors.forEach(element => {
   });
 });
 
+// colorPicker
+const colorPicker = document.querySelector('.colorPicker') as HTMLInputElement;
+colorPicker.addEventListener('change', () => {
+  ctx.strokeStyle = colorPicker.value;
+});
+
 // draw a line
 let painting = false;
 ctx.lineWidth = parseFloat(penWidth.value);

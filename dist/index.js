@@ -12,6 +12,11 @@ colors.forEach(element => {
         ctx.strokeStyle = color.slice(color.search('#'), color.length - 1);
     });
 });
+// colorPicker
+const colorPicker = document.querySelector('.colorPicker');
+colorPicker.addEventListener('change', () => {
+    ctx.strokeStyle = colorPicker.value;
+});
 // draw a line
 let painting = false;
 ctx.lineWidth = parseFloat(penWidth.value);
