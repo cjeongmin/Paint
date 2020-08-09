@@ -1,0 +1,48 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+  margin-top: 3%;
+}
+
+.canvas {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.canvas_range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colors {
+  margin-top: 2%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.colors .color {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin: 5px;
+  box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.5);
+}
+
+.customColor {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: 0.5px solid rgba(126, 126, 126, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.25);
+}
